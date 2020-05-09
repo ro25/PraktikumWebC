@@ -1,0 +1,107 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+.wrap{
+	background: blue;
+	margin: 10px auto;
+}
+ 
+/*bagian header*/
+.wrap .badan .header{
+	background: white;
+	background-image: url("gambar/rektorat.jpg");
+	background-position: center;
+	background-size: 85%;
+	background-repeat: no-repeat;
+	height: 275px;
+}
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+.wrap .badan .menu{
+	background: DodgerBlue;
+	border-bottom-left-radius: 30px;
+}
+ 
+.wrap .menu ul{
+	padding: 0;
+	margin: 5px;
+	background: DodgerBlue;
+	overflow: hidden;
+	border-bottom-left-radius: 30px;
+}
+ 
+.wrap .menu ul li{
+	float: right;
+	list-style-type: none;
+	padding: 10px;
+	margin-left: 30px;
+}
+
+.wrap .menu ul li a{
+	color: white;
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 1000px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: white;
+	float: left;	
+	width: 20%;
+	height: 100%;
+}
+
+h2.titik {
+	border-style: dotted;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+}
+ 
+/*akhir sidebar*/
+ .logo{
+ 	display: flex;
+ 	align-content: center;
+ 	margin-left: 10%;
+ }
+.wrap .badan .content{
+	background: white;
+	float: left;
+	height: 100%;
+	width: 80%;	
+}
+ 
+.wrap .footer{
+	clear: both;
+	background-color: DodgerBlue;
+	width: 100%;
+	padding: 10px;
+}
+
+table, td, th {
+	text-align: center;	
+	border: 1px solid DodgerBlue;
+}
+
+table {
+  border-collapse: collapse;
+  width: 25%
+}
+
+.wrap .badan .tabel{
+	float: left;
+	margin-left: 150px;
+}
+.wrap .badan .foto{
+	margin-left: 40px;
+	margin-right: 60px; 
+}
